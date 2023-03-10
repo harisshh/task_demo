@@ -30,7 +30,7 @@
 // export default ButtonComponent;
 
 import React from 'react';
-import PropTypes from prop-types;
+import PropTypes from 'prop-types';
 import './button.css';
 
 export default function Button (props) {
@@ -59,7 +59,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   //backgroundColor: null,
-  variant: primary,
+  variant: 'success',
   //size: 'medium',
   //onClick: undefined,
   //age: 17,
